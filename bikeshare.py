@@ -43,7 +43,7 @@ def get_filters():
         try:
             month = input(
                 'What month? enter the number for the month, eg 1 for January, 6 for June. Or \'all\' for no filter. \n').lower()
-            if month in ['1','2', '3', '4', '5','6', 'all']
+            if month in ['1','2', '3', '4', '5','6', 'all']:
                    # == '1' or month == '2' or month == '3' or month == '4' or month == '5' or month == '6':
                 break
             else:

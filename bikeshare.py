@@ -28,7 +28,6 @@ def get_filters():
     while True:
         try:
             city = input('What city? C for Chicago, N for New York City or W for Washington \n').upper()
-            #if city == 'C' or city == 'N' or city == 'W':
             if city in cities:
                 break
             elif city.isdigit():
@@ -44,7 +43,6 @@ def get_filters():
             month = input(
                 'What month? enter the number for the month, eg 1 for January, 6 for June. Or \'all\' for no filter. \n').lower()
             if month in ['1','2', '3', '4', '5','6', 'all']
-                   # == '1' or month == '2' or month == '3' or month == '4' or month == '5' or month == '6':
                 break
             else:
                 print(

@@ -42,7 +42,7 @@ def get_filters():
         try:
             month = input(
                 'What month? enter the number for the month, eg 1 for January, 6 for June. Or \'all\' for no filter. \n').lower()
-            if month in ['1','2', '3', '4', '5','6', 'all']
+            if month in ['1','2', '3', '4', '5','6', 'all']:
                 break
             else:
                 print(
@@ -55,7 +55,7 @@ def get_filters():
         try:
             day = input(
                 'What day of week? enter the number for the weekday where Monday is 1 and Sunday 7. Or \'all\' for no filter. \n')
-            if day == '1' or day == '2' or day == '3' or day == '4' or day == '5' or day == '6' or day == '7':
+            if day in ['1', '2', '3', '4', '5', '6', '7', 'all']:
                 break
             elif day.lower() == 'all':
                 break

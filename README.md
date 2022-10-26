@@ -28,3 +28,5 @@ https://stackoverflow.com/questions/23294658/asking-the-user-for-input-until-the
 New resources for needs work
 https://stackoverflow.com/questions/65480967/how-can-i-display-five-rows-of-data-based-on-user-in-python
 
+### Misc
+Let's say something nice to our co programmers! You look awesome today!
